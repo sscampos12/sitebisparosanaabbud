@@ -276,40 +276,34 @@ text-align: right;
 header {
     flex: 1; 
 }
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
+/* Media queries para responsividade */
+@media (max-width: 768px) { /* Telas menores, como tablets */
+  .cabeçalho button, 
+  .icones-redes-sociais a i {
+    font-size: 14px; 
+  }
 
-    .chamada {
-        padding: 80px; /* Reduza o padding em telas menores */
-    }
-
-    .sobre {
-        padding: 20px;
-        background-size: cover; /* Ajuste a imagem para cobrir em telas menores */
-        background-position: center;
-    }
-
-    .sobre p, .sobre h2 {
-        width: 100%; /* O texto ocupa toda a largura em telas menores */
-    }
-
-    .familia {
-        flex-direction: column; /* Organiza os elementos em coluna em telas menores */
-    }
-
-    .familia img {
-        margin-right: 0; /* Remove a margem direita em telas menores */
-    }
-
-    .testemunhos .testemunho {
-        width: 45%; /* Ajuste a largura dos testemunhos em telas menores */
-    }
+  .icones-redes-sociais a {
+    margin: 0 3px; 
+  }
 }
 
-@media (max-width: 480px) {
-    .testemunhos .testemunho {
-        width: 100%; /* Os testemunhos ocupam toda a largura em telas muito pequenas */
-    }
+@media (max-width: 480px) { /* Telas muito pequenas, como celulares */
+  .cabeçalho button,
+  .icones-redes-sociais a i {
+    font-size: 12px; 
+  }
+
+  .icones-redes-sociais {
+    flex-direction: column; 
+    align-items: flex-end; 
+  }
+
+  .icones-redes-sociais a {
+    margin: 3px 0; 
+  }
+
+  .miniatura { 
+    display: none; 
+  }
 }
