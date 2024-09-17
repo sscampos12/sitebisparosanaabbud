@@ -329,3 +329,9 @@ header {
   .sobre p, .sobre h2, .familia p, .familia h3 {
     font-size: 1rem; 
   }
+
+  .youtube iframe { /* Ajuste para o vídeo do YouTube em telas menores */
+    width: 100%;
+    height: auto;
+  }
+}
