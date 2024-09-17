@@ -112,12 +112,9 @@ header nav button {
     justify-content: flex-end; /* Alinha o texto ao final do container */
         
 }
-    
+.familia image {
+    margin-left: 30px;
 }
-
-
-
-
 .familia p {
     font-style: normal;
     text-align: right; /* Alinha o texto à esquerda */
