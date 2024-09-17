@@ -105,7 +105,7 @@ header nav button {
     color: #333;
     background-image: url(/bispa.jpeg);
     background-repeat: no-repeat;
-    background-size: contain; /* Ajusta a imagem para caber no container */
+    background-size: 50%; /* Ajusta a imagem para caber no container */
     background-position: left ;/* Posiciona a imagem no canto superior direito */
     display: flex; /* Usa flexbox   para posicionar o texto */
     flex-direction: column; /* Organiza os elementos em coluna */
